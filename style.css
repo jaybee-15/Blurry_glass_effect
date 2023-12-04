@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif ;
+}
+body {
+   background: repeating-radial-gradient(coral, orange, yellow, goldenrod);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline solid rgb(91, 212, 10);
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+h2{
+    font-size: 7.6em;
+    color: white;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 100%);
+    pointer-events: none;
+    user-select: none;
+
+}
+.glass{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    background: rgb(255,255,255, .1);
+    box-shadow: 0 25px 45px rgba(0,0,0,80%,);
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter:blur(5px);
+}
+marquee{
+    color: white;
+    font-size: 25px;
+}
